@@ -1,0 +1,77 @@
+CRITICAL - 2023-07-10 01:58:59 --> Undefined array key "celulares"
+in APPPATH\Controllers\Home.php on line 105.
+ 1 APPPATH\Controllers\Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "celulares"', 'C:\\xampp\\htdocs\\ci4_tarea\\app\\Controllers\\Home.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->api()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 01:59:52 --> Undefined array key "celulares"
+in APPPATH\Controllers\Home.php on line 105.
+ 1 APPPATH\Controllers\Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "celulares"', 'C:\\xampp\\htdocs\\ci4_tarea\\app\\Controllers\\Home.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->api()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 01:59:54 --> Undefined array key "celulares"
+in APPPATH\Controllers\Home.php on line 105.
+ 1 APPPATH\Controllers\Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "celulares"', 'C:\\xampp\\htdocs\\ci4_tarea\\app\\Controllers\\Home.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->api()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 02:02:17 --> Undefined variable $nombrescelulares
+in APPPATH\Controllers\Home.php on line 105.
+ 1 APPPATH\Controllers\Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombrescelulares', 'C:\\xampp\\htdocs\\ci4_tarea\\app\\Controllers\\Home.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->api()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 02:03:19 --> Undefined array key "Marcacelular"
+in APPPATH\Controllers\Home.php on line 105.
+ 1 APPPATH\Controllers\Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Marcacelular"', 'C:\\xampp\\htdocs\\ci4_tarea\\app\\Controllers\\Home.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->api()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 02:03:35 --> Undefined array key "Marca"
+in APPPATH\Controllers\Home.php on line 105.
+ 1 APPPATH\Controllers\Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Marca"', 'C:\\xampp\\htdocs\\ci4_tarea\\app\\Controllers\\Home.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->api()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 02:07:06 --> Undefined variable $nombrescelulares
+in APPPATH\Controllers\Home.php on line 105.
+ 1 APPPATH\Controllers\Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombrescelulares', 'C:\\xampp\\htdocs\\ci4_tarea\\app\\Controllers\\Home.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->api()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 02:07:12 --> Undefined variable $nombrescelulares
+in APPPATH\Controllers\Home.php on line 105.
+ 1 APPPATH\Controllers\Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombrescelulares', 'C:\\xampp\\htdocs\\ci4_tarea\\app\\Controllers\\Home.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->api()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 02:09:44 --> Undefined variable $nombrescelulares
+in APPPATH\Controllers\Home.php on line 105.
+ 1 APPPATH\Controllers\Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombrescelulares', 'C:\\xampp\\htdocs\\ci4_tarea\\app\\Controllers\\Home.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->api()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 02:11:09 --> Undefined variable $nombrescelulares
+in APPPATH\Controllers\Home.php on line 102.
+ 1 APPPATH\Controllers\Home.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombrescelulares', 'C:\\xampp\\htdocs\\ci4_tarea\\app\\Controllers\\Home.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->api()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 02:14:26 --> Undefined variable $nombrescelulares
+in APPPATH\Controllers\Home.php on line 102.
+ 1 APPPATH\Controllers\Home.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nombrescelulares', 'C:\\xampp\\htdocs\\ci4_tarea\\app\\Controllers\\Home.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->api()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
