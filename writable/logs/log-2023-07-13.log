@@ -1,0 +1,126 @@
+CRITICAL - 2023-07-13 02:04:02 --> Cannot redeclare App\Controllers\Home::updateData()
+in APPPATH\Controllers\Home.php on line 164.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-13 02:04:38 --> Cannot redeclare App\Controllers\Home::updateData()
+in APPPATH\Controllers\Home.php on line 164.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-13 02:05:22 --> Cannot redeclare App\Controllers\Home::updateData()
+in APPPATH\Controllers\Home.php on line 164.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-13 02:05:40 --> Cannot redeclare App\Controllers\Home::updateData()
+in APPPATH\Controllers\Home.php on line 164.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-13 03:17:45 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 138.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_tarea\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 03:18:21 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Home.php on line 138.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4_tarea\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-13 03:29:23 --> mysqli_sql_exception: No database selected in C:\xampp\htdocs\ci4_tarea\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_tarea\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\ci4_tarea\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\ci4_tarea\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\ci4_tarea\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\ci4_tarea\app\Controllers\Home.php(145): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4_tarea\system\CodeIgniter.php(932): App\Controllers\Home->agregarDato()
+#6 C:\xampp\htdocs\ci4_tarea\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_tarea\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_tarea\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-13 03:29:23 --> No database selected
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `marca_celulares` (`id`, `marca`, `procesador`, `costo`, `almacenamiento`, `sistema_operativo`) VALUES (\'31\', \'LG\', \'Snapdragon\', \'500.99\', \'128\', \'Android\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `marca_celulares` (`id`, `marca`, `procesador`, `costo`, `almacenamiento`, `sistema_operativo`) VALUES (\'31\', \'LG\', \'Snapdragon\', \'500.99\', \'128\', \'Android\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `marca_celulares` (`id`, `marca`, `procesador`, `costo`, `almacenamiento`, `sistema_operativo`) VALUES (\'31\', \'LG\', \'Snapdragon\', \'500.99\', \'128\', \'Android\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `marca_celulares` (`id`, `marca`, `procesador`, `costo`, `almacenamiento`, `sistema_operativo`) VALUES (:id:, :marca:, :procesador:, :costo:, :almacenamiento:, :sistema_operativo:)', [...], false)
+ 5 APPPATH\Controllers\Home.php(145): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->agregarDato()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-13 03:31:21 --> mysqli_sql_exception: No database selected in C:\xampp\htdocs\ci4_tarea\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_tarea\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\ci4_tarea\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\ci4_tarea\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\ci4_tarea\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\ci4_tarea\app\Controllers\Home.php(145): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4_tarea\system\CodeIgniter.php(932): App\Controllers\Home->agregarDato()
+#6 C:\xampp\htdocs\ci4_tarea\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_tarea\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_tarea\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-13 03:31:21 --> No database selected
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `marca_celulares` (`id`, `marca`, `procesador`, `costo`, `almacenamiento`, `sistema_operativo`) VALUES (\'31\', \'LG\', \'Snapdragon\', \'500\', \'128\', \'Android\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `marca_celulares` (`id`, `marca`, `procesador`, `costo`, `almacenamiento`, `sistema_operativo`) VALUES (\'31\', \'LG\', \'Snapdragon\', \'500\', \'128\', \'Android\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `marca_celulares` (`id`, `marca`, `procesador`, `costo`, `almacenamiento`, `sistema_operativo`) VALUES (\'31\', \'LG\', \'Snapdragon\', \'500\', \'128\', \'Android\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `marca_celulares` (`id`, `marca`, `procesador`, `costo`, `almacenamiento`, `sistema_operativo`) VALUES (:id:, :marca:, :procesador:, :costo:, :almacenamiento:, :sistema_operativo:)', [...], false)
+ 5 APPPATH\Controllers\Home.php(145): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->agregarDato()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-13 03:37:15 --> mysqli_sql_exception: No database selected in C:\xampp\htdocs\ci4_tarea\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_tarea\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\ci4_tarea\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\ci4_tarea\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\ci4_tarea\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\ci4_tarea\app\Controllers\Home.php(145): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4_tarea\system\CodeIgniter.php(932): App\Controllers\Home->agregarDato()
+#6 C:\xampp\htdocs\ci4_tarea\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_tarea\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_tarea\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-13 03:37:15 --> No database selected
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `marca_celulares` (`id`, `marca`, `procesador`, `costo`, `almacenamiento`, `sistema_operativo`) VALUES (\'31\', \'LG\', \'Snapdragon\', \'500\', \'128\', \'Android\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `marca_celulares` (`id`, `marca`, `procesador`, `costo`, `almacenamiento`, `sistema_operativo`) VALUES (\'31\', \'LG\', \'Snapdragon\', \'500\', \'128\', \'Android\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `marca_celulares` (`id`, `marca`, `procesador`, `costo`, `almacenamiento`, `sistema_operativo`) VALUES (\'31\', \'LG\', \'Snapdragon\', \'500\', \'128\', \'Android\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `marca_celulares` (`id`, `marca`, `procesador`, `costo`, `almacenamiento`, `sistema_operativo`) VALUES (:id:, :marca:, :procesador:, :costo:, :almacenamiento:, :sistema_operativo:)', [...], false)
+ 5 APPPATH\Controllers\Home.php(145): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->agregarDato()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-13 03:46:48 --> mysqli_sql_exception: Duplicate entry '35' for key 'PRIMARY' in C:\xampp\htdocs\ci4_tarea\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4_tarea\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `marca_c...', 0)
+#1 C:\xampp\htdocs\ci4_tarea\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `marca_c...')
+#2 C:\xampp\htdocs\ci4_tarea\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `marca_c...')
+#3 C:\xampp\htdocs\ci4_tarea\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `marca_c...', Array, false)
+#4 C:\xampp\htdocs\ci4_tarea\app\Controllers\Home.php(160): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\ci4_tarea\system\CodeIgniter.php(932): App\Controllers\Home->actualizarDato('2')
+#6 C:\xampp\htdocs\ci4_tarea\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci4_tarea\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4_tarea\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-13 03:46:48 --> Duplicate entry '35' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `marca_celulares` SET `id` = \'35\', `marca` = \'LG\', `procesador` = \'Snapdragon\', `costo` = \'500\', `almacenamiento` = \'128\', `sistema_operativo` = \'Android\'
+WHERE `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `marca_celulares` SET `id` = \'35\', `marca` = \'LG\', `procesador` = \'Snapdragon\', `costo` = \'500\', `almacenamiento` = \'128\', `sistema_operativo` = \'Android\'
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `marca_celulares` SET `id` = \'35\', `marca` = \'LG\', `procesador` = \'Snapdragon\', `costo` = \'500\', `almacenamiento` = \'128\', `sistema_operativo` = \'Android\'
+WHERE `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `marca_celulares` SET `id` = :id:, `marca` = :marca:, `procesador` = :procesador:, `costo` = :costo:, `almacenamiento` = :almacenamiento:, `sistema_operativo` = :sistema_operativo:
+WHERE `id` = :id.1:', [...], false)
+ 5 APPPATH\Controllers\Home.php(160): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->actualizarDato('2')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

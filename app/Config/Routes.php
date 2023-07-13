@@ -33,9 +33,16 @@ $routes->get('/', 'Home::index');
 $routes->get('/prueba', 'Home::prueba');
 $routes->get('/api', 'Home::api');
 $routes->get('/login', 'Home::login');
-$routes->get('/testbd/(:any)', 'Home::testbd/$1');
+$routes->get('/testdb/(:any)', 'Home::testdb/$1');
 $routes->get('/login', 'Home::login');
 $routes->get('/api/(:any)', 'Home::api/$1');
+$routes->post('/update/{id}', 'Home::updateData');
+$routes->get('/testdb', 'Home::testdb');
+$routes->post('/agregar', 'Home::agregarDato');
+$routes->put('/actualiza/(:num)', 'Home::actualizarDato/$1');
+$routes->delete('/testdb/(:num)', 'Home::eliminar/$1');
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

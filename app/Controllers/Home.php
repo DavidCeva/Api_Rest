@@ -119,11 +119,85 @@ class Home extends BaseController
     //
     public function login(){
 
-// Llamado mediante una variable
-$functionName = 'view';
-return $functionName('login');
+ // Llamado mediante una variable
+  /*$functionName = 'view';
+  return $functionName('login');
+    }
+
+       public function testdb($id)
+        {
+        $this->db=\Config\Database::connect();
+        $query=$this->db->query("SELECT id, marca, procesador, costo, almacenamiento, sistema_operativo 
+        FROM celulares.marca_celulares where id='$id' ");
+        $result=$query->getResult();
+        return $this->response->setJSON($result);*/
+
+      //echo "hola";
+
+
+      ///AGREGAR DATOS
+        }
+      public function agregarDato()
+     {
+     $datosRecibidos = $this->request->getJSON(true); 
+     // Lógica para insertar los datos en la base de datos
+     $conexion = \Config\Database::connect();
+     $conexion->table('marca_celulares')->set($datosRecibidos)->insert();
+
+   
+     $respuesta = [
+        'mensaje' => 'Datos agregados exitosamente'
+     ];
+
+     return $this->response->setJSON($respuesta);
+      }
+        
+      ////ACTUALIZAR LOS DATOS
+      public function actualizarDato($id)
+     {
+     $datosRecibidos = $this->request->getJSON(true); // Recopilar la información proporcionada en la solicitud POST.   
+     $conexion = \Config\Database::connect();
+     $conexion->table('marca_celulares')->set($datosRecibidos)->where('id', $id)->update();
+    
+     //Generar una respuesta apropiadas
+     $respuesta = [
+        'mensaje' => 'Se actualizo correctamnete'
+     ];
+    
+     return $this->response->setJSON($respuesta);
+     }
+
+      ///ELIMINAR DATOS
+     public function eliminar($id)
+      {
+     $conexion = \Config\Database::connect();
+
+
+     $conexion->table('marca_celulares')->where('id', $id)->delete();
+
+     $respuesta = [
+        'mensaje' => 'Eliminado correctamente'
+     ];
+
+      return $this->response->setJSON($respuesta);
+      }
+
+       
+     public function testdb()
+      {
+     $this->db=\Config\Database::connect();
+     $query=$this->db->query("SELECT id, marca, procesador, costo, almacenamiento, sistema_operativo FROM celulares.marca_celulares");
+     $result=$query->getResult();
+     return $this->response->setJSON($result);
+
+      //echo "hola";
+      }
+      
+      
+    
+
+   
 
 }
-
-}
+ 
 
